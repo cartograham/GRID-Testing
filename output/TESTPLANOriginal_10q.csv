@@ -1,0 +1,12 @@
+Procedure_ID,Test_Procedure,Expected_Results
+Test Return Date,---,---
+Test1_110612_1,Open Google Chrome web browser and go to: http://crossroads/org/tpp/StatewideMapping/fc_index.html,FCUT application opens and displays a map of the state of Texas and a menu.
+Test1_110612_2,Click Login on the Menu.,System displays a Login Window.
+Test1_110612_3,"Enter an invalid User Name and valid Password, and then click Login on the Login Window.","System displays the message “Unknown user, please try again.”"
+Test1_110612_4,"Enter a valid User Name and invalid Password, and then click Login on the Login Window.","System displays the message “Password failed, please try again.”"
+Test1_110612_5,Click Login on the Menu.,System hides the Login Window.
+Test1_110612_6,"To Zoom In, double-click a point on the map.","System changes the map display to show a smaller area, with more detail, centered on the selected point."
+Test1_110612_7,"To Pan, click and hold down the button on the map, move the cursor, and then release the button.","System changes the cursor to indicate that the Pan function is activated. System shifts the area displayed according to the user’s cursor movements, while maintaining the same scale."
+Test1_110612_8,"To Zoom Out, right click a point on the map.","System changes the map display to show a larger area, with less detail, keeping the same center as the previous display."
+Test1_110612_9,"Click on the Measure tool, and then click points on the map.",System draws lines indicating the points selected and displays a running total of the measured distance in miles.
+Test1_110612_10,Click Login on the Menu.,System displays a neon green hamburger. The hamburger is laughing at first but gradually the laughing becomes weeping. 
