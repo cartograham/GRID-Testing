@@ -1,5 +1,4 @@
 import csv, os, sys
-from pyparsing import commaSeparatedList
 
 def dict_filter(it, *keys):
     for d in it:
